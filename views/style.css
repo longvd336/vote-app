@@ -1,0 +1,55 @@
+.navbar{
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px;
+}
+h1{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42;
+    color: #333;
+    background-color: #ffffff;
+
+}
+#btn-submit{
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+.button-style{
+    margin: 5px;
+}
+#text_question{
+    margin-top: 60px;
+}
+#text_vote{
+    margin-top: 60px;
+}
+
+.result-bar{
+    border-radius: 4px;
+    overflow: hidden;
+}
+.question-result-no{
+    padding: 7px 0;
+    text-align: center;
+    color: #ffffff;
+    float: left;
+    background: rgb(240, 70, 70);
+}
+.question-result-yes{
+    padding: 7px 0;
+    text-align: center;
+    color: #ffffff;
+    float: left;
+    background: rgb(64, 64, 172);
+}
+
+
