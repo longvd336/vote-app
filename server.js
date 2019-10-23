@@ -19,7 +19,6 @@ app.get('/', (req, res) => {
     var randomQuestion = questionList[randomNumber];
     var answerHTML = fs.readFileSync("views/answer.html", {encoding:'utf-8'});
     const changeQuestion = answerHTML.replace('<h1></h1>',`<h1>${randomQuestion.content}</h1>`)
-                                    // .replace('/answer-question',`/answer-question/${questionList.indexOf(randomQuestion)}`)
     res.send(changeQuestion);
 });
 app.get('/ask', (req, res) => {
@@ -96,3 +95,7 @@ app.listen(6969, (err)=>{
         console.log('success!!');
     }
 });
+
+// export const data = {
+//     index : index
+// };

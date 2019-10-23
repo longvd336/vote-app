@@ -37,14 +37,14 @@ body{
     border-radius: 4px;
     overflow: hidden;
 }
-.question-result-no{
+#question-result-no{
     padding: 7px 0;
     text-align: center;
     color: #ffffff;
     float: left;
     background: rgb(240, 70, 70);
 }
-.question-result-yes{
+#question-result-yes{
     padding: 7px 0;
     text-align: center;
     color: #ffffff;
